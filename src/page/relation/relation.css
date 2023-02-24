@@ -1,0 +1,85 @@
+.Container {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+}
+.personName {
+    color: var(--text);
+    font-weight: 700;
+}
+.checkBoxItem {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+
+.accordion-button {
+    background: var(--bg-1);
+    color: var(--text);
+    transition: 0.5s;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.addPersonContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 12px;
+}
+.personInput {
+    background: var(--bg-2);
+    color: var(--text);
+    padding: 8px;
+    border: 0;
+    border-radius: 12px;
+}
+.accordionItem {
+    background: var(--bg-1);
+    color: var(--text-1);
+    transition: 0.5s;
+}
+.bothContainer{
+    width:50%;
+    background: var(--bg-1);
+    color: var(--text-1);
+    transition: 0.5s;
+}
+.getRelationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: 0.5s;
+}
+.relationPeopleInput {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: 0.5s;
+}
+.selectInput {
+    background: var(--bg-2);
+    color: var(--text);
+    padding: 8px;
+    border: 0;
+    border-radius: 12px;
+    outline: none;
+    cursor: pointer;
+}
+.details {
+    margin: 18px;
+}
+.button {
+    color: black;
+    border:none;
+    border-radius:10px;
+    width:25%
+  }
+.detailsList {
+    list-style: none;
+}
