@@ -1,0 +1,35 @@
+  
+  .chessOuter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .chessboard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    height: 640px;
+    background-image: url("./chess.png");
+    background-size: contain;
+    background-color: white;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    flex: 1 0 12.5%; /* explanation below */
+    cursor: pointer;
+  }
+  
+  .next {
+    background-image: url("./knight.png");
+    background-color: #8f8f8f !important;
+  }
+  
+  .selected {
+    background-image: url("./knight.png");
+    background-color: #363636 !important;
+  }
