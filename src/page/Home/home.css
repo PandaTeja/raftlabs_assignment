@@ -1,0 +1,22 @@
+.assessmentContainer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 2;
+    transform: translate(8vw, 40vh);
+    transition: 0.5s;
+}
+.linkStyle{
+    color:aqua;
+    text-decoration: none;
+}
+.homeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:80%
+}
+.Heading{
+    text-align: center;
+}
